@@ -55,7 +55,7 @@ class MOCOCreateEventView extends StatelessWidget {
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
-                          return "Eingabe benötigt.";
+                          return "Enter name.";
                         }
 
                         return null;
